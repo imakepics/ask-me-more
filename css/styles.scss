@@ -1,0 +1,44 @@
+$mainColor: #022E6C;
+$secondaryColor: #6c757d;
+$alertColor: #DB314C;
+$chartColor: #ccc;
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: $mainColor;
+}
+
+#container {
+  width: 460px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  padding-top: 100px;
+}
+
+h2 {
+  margin-bottom: 2em;
+} 
+
+#randomAnswer {
+  color: $alertColor;
+}
+
+blockquote {
+  border-left: 2px solid $chartColor;
+  margin: 10rem 0;
+  padding-left: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.blockquote-footer {
+  color: $secondaryColor;
+  font-size: 80%;
+
+  &::before {
+    content: "\2014 \00A0";
+  }
+}
