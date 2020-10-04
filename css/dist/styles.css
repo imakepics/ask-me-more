@@ -20,6 +20,22 @@ h2 {
   color: #DB314C;
 }
 
+.btn {
+  display: inline-block;
+  border: 1px solid;
+  border-color: #022E6C;
+  border-radius: 0.375em;
+  color: #fff;
+  background-color: #022E6C;
+  margin-top: 3em;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+}
+.btn:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.17), 0 3px 12px 0 rgba(0, 0, 0, 0.14);
+}
+
 blockquote {
   border-left: 2px solid #ccc;
   margin: 10rem 0;
